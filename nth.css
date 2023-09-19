@@ -1,0 +1,31 @@
+.parant{
+    
+   
+}
+.parant .chield{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+}
+.parant div:nth-child(odd){
+    background-color: yellow;
+    
+
+}
+.parant div:nth-child(even){
+    background-color: green;
+    position: relative;
+    top: 10px;
+
+}
+
+.parant2 .chield2{
+    display: inline-block;
+    width: 30px;
+    height: 20px;
+    background-color: red;
+    text-align: center;
+}
+.parant2 div:nth-child(even){
+    display: none;
+}
